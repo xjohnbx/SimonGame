@@ -136,6 +136,11 @@ class GameViewController: UIViewController {
         index += 1
     }
     
+    
+    @IBAction func startButtonClicked(_ sender: Any) {
+        startGame()
+    }
+    
     @IBAction func greenTapped(_ sender: Any) {
         color = .Green
         popGreen()
@@ -158,10 +163,6 @@ class GameViewController: UIViewController {
         color = .Blue
         popBlue()
         startTurn()
-    }
-    
-    @IBAction func startButtonClicked(_ sender: Any) {
-        startGame()
     }
     
     private func popGreen() {
