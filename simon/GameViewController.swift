@@ -136,7 +136,6 @@ class GameViewController: UIViewController {
         index += 1
     }
     
-    
     @IBAction func startButtonClicked(_ sender: Any) {
         startGame()
     }
